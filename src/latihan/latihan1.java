@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package latihan;
-
+import java.util.Scanner;
 /**
  *
  * @author Nita
@@ -20,9 +20,21 @@ public class latihan1 {
     }
  public static void main (String [] args){   
     String identitas = "DEAR REGITA PERMATASARI/ X RPL 5/ 11";
+    int n = tampilInput();
     
    tampilJudul(identitas);
  }
+
+private static int tampilInput() {
+Scanner scanner = new Scanner (System.in);
+
+System.out.print("Bilangan ke-1 :");
+int n= scanner.nextInt();
+
+return n;
 }
+}
+
+
 
 
